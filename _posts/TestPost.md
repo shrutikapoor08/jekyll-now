@@ -1,3 +1,8 @@
+---
+layout: post
+title: How does FETCH work in JavaScript? 
+---
+
 # How to use fetch API to make AJAX calls in JavaScript? 
 
 Fetch is an interface for calling a network request in JavaScript. It is implemented widely by modern browsers and provides a fairly straightforward way of calling an API. 
@@ -9,10 +14,6 @@ const promise = fetch(url, [options])
 ````
 
 Calling fetch returns a promise, with Response object. The promise is rejected if there is a network error, and resolved if there is no problem connecting to the server and the server responded with a status code. This status code could be 200s, 400s or 500s.
----
-layout: post
-title: How does FETCH work in JavaScript? 
----
 
 
 A sample FETCH request - 
